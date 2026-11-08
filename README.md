@@ -4,7 +4,7 @@
 **Registration number:** 252U1R9112  
 **Section:** 111 GEN AI 2B  
 **Course:** Backend Development Fundamentals  
-**Live link:** Not deployed yet — add the Render URL after deployment.
+**Live link:** https://lab-3-bds.onrender.com/
 
 ## Objective
 

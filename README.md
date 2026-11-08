@@ -1,7 +1,6 @@
 # Lab 3: REST API, query parameters, validation, debugging
 
 **Name:** SHIVA TEJA YADAV 
-**Registration number:** 252U1R9112  
 **Section:** 111 GEN AI 2B  
 **Course:** Backend Development Fundamentals  
 **Live link:** https://lab-3-bds.onrender.com/
@@ -167,28 +166,22 @@ $env:BASE_URL="https://your-render-service.onrender.com"; npm test
 
 ## Screenshots
 
-Add actual screenshots captured from your own Postman and database runs to this folder. Do not use fabricated screenshots.
+These Postman screenshots show the API responses for the requests below. Select a filename to view the image.
 
-Suggested filenames:
-
-- `01-get-all-books.png`
-- `02-search-books.png`
-- `03-sort-ascending.png`
-- `04-sort-descending.png`
-- `05-pagination.png`
-- `06-price-range.png`
-- `07-post-success.png`
-- `08-validation-error.png`
-- `09-put-success.png`
-- `10-delete-success.png`
-- `11-not-found.png`
-- `12-database-view.png`
-
-When captured, embed them here, for example:
-
-```markdown
-![GET all books](screenshots/01-get-all-books.png)
-```
+| # | Request | Screenshot |
+|---|---|---|
+| 01 | API welcome response | [01-api-welcome.png](screenshots/01-api-welcome.png) |
+| 02 | Get all books | [02-get-all-books.png](screenshots/02-get-all-books.png) |
+| 03 | Search books by title | [03-search-books.png](screenshots/03-search-books.png) |
+| 04 | Sort books by price in ascending order | [04-ascending-sort.png](screenshots/04-ascending-sort.png) |
+| 05 | Sort books by price in descending order | [05-descending-sort.png](screenshots/05-descending-sort.png) |
+| 06 | Paginate the books list | [06-pagination.png](screenshots/06-pagination.png) |
+| 07 | Filter books by price range | [07-price-range-filter.png](screenshots/07-price-range-filter.png) |
+| 08 | Create a new book | [08-create-new-book.png](screenshots/08-create-new-book.png) |
+| 09 | Validation error for an invalid book request | [09-validation-error.png](screenshots/09-validation-error.png) |
+| 10 | Update a book | [10-update-book.png](screenshots/10-update-book.png) |
+| 11 | Delete a book | [11-delete-book.png](screenshots/11-delete-book.png) |
+| 12 | Book not found response | [12-book-not-found.png](screenshots/12-book-not-found.png) |
 
 ## Deployment note
 
@@ -196,9 +189,9 @@ Deploy this folder as a Node.js web service on Render (or another platform appro
 
 ## Submission checklist
 
-- [ ] Enter the correct registration number and section above.
+- [ ] Confirm the course details above before submission.
 - [ ] Run `npm install`, `npm start`, and `npm test` successfully.
 - [ ] Capture real Postman screenshots for success and failure cases.
-- [ ] Add screenshots under `screenshots/` and embed them in this README.
+- [ ] Verify the screenshots under `screenshots/` are linked above.
 - [ ] Deploy and add the verified live URL, or explain why deployment was not possible.
 - [ ] Commit `lab-03/` to the course repository; do not commit `node_modules/` or `.env`.
